@@ -5,6 +5,6 @@ type monotonic_value struct {
 	n    uint64
 }
 
-func New() *identifier {
+func New() *monotonic_value {
 	return &monotonic_value{"", 1}
 }
